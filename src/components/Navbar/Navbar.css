@@ -1,0 +1,34 @@
+.header-container{
+    background-color: #272727;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 40px;
+}
+.logo-container img{
+width: 121px;
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 9px;
+}
+.nav-link a:hover{
+    color: #4749bd;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 9px;
+    transition:  1.5s ease-out;
+}
+.logoutbutton{
+    background-color: #4749bd;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+}
